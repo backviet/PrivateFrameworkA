@@ -28,6 +28,37 @@
         "children": [
           {
             "kind": "Function",
+            "name": "createGADNativeAdViewFromNib",
+            "printedName": "createGADNativeAdViewFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.GADNativeAdView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADNativeAdView",
+                    "printedName": "GoogleMobileAds.GADNativeAdView",
+                    "usr": "c:objc(cs)GADNativeAdView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PrivateFrameworkA17AdmobRenderHelperC28createGADNativeAdViewFromNibSo0ghI0CSgyFZ",
+            "mangledName": "$s17PrivateFrameworkA17AdmobRenderHelperC28createGADNativeAdViewFromNibSo0ghI0CSgyFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "renderAd",
             "printedName": "renderAd(_:adNativeConfig:customOptions:)",
             "children": [
@@ -84,7 +115,8 @@
             "moduleName": "PrivateFrameworkA",
             "static": true,
             "declAttributes": [
-              "Final"
+              "Final",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -93,7 +125,11 @@
         "usr": "s:17PrivateFrameworkA17AdmobRenderHelperC",
         "mangledName": "$s17PrivateFrameworkA17AdmobRenderHelperC",
         "moduleName": "PrivateFrameworkA",
-        "isOpen": true
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -3223,35 +3259,35 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/Bundle+Extension.swift",
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/FrameworkA\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/Bundle+Extension.swift",
       "kind": "StringLiteral",
       "offset": 595,
       "length": 19,
       "value": "\"PrivateFrameworkA\""
     },
     {
-      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/FrameworkA\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
       "kind": "FloatLiteral",
       "offset": 1503,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIView+Extension.swift",
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/FrameworkA\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIView+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 273,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/FrameworkA\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
       "kind": "FloatLiteral",
       "offset": 725,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/FrameworkA\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
       "kind": "FloatLiteral",
       "offset": 1278,
       "length": 3,
