@@ -1,7 +1,6 @@
 archives
 Pods
-PrivateFrameworkA.xcworkspace
-PrivateFrameworkA
-PrivateFrameworkA.xcodeproj
+PrivateFrameworkA/
+PrivateFrameworkA*
 build.sh
 Podfile*
