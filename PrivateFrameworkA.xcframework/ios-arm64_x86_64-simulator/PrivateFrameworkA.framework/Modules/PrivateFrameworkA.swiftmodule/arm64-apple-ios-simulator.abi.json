@@ -3262,8 +3262,8 @@
       "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/FrameworkA\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/Bundle+Extension.swift",
       "kind": "StringLiteral",
       "offset": 595,
-      "length": 19,
-      "value": "\"PrivateFrameworkA\""
+      "length": 28,
+      "value": "\"PrivateFrameworkAResources\""
     },
     {
       "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/FrameworkA\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
