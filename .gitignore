@@ -1,0 +1,7 @@
+archives
+Pods
+PrivateFrameworkA.xcworkspace
+PrivateFrameworkA
+PrivateFrameworkA.xcodeproj
+build.sh
+Podfile*

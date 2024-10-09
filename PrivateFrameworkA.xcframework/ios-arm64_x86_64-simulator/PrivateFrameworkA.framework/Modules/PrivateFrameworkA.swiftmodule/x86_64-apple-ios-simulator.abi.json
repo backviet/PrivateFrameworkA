@@ -1,0 +1,3261 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdmobRenderHelper",
+        "printedName": "AdmobRenderHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "renderAd",
+            "printedName": "renderAd(_:adNativeConfig:customOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAdView",
+                "printedName": "GoogleMobileAds.GADNativeAdView",
+                "usr": "c:objc(cs)GADNativeAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAd",
+                "printedName": "GoogleMobileAds.GADNativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdNativeConfig",
+                "printedName": "PrivateFrameworkA.AdNativeConfig",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PrivateFrameworkA17AdmobRenderHelperC8renderAd_14adNativeConfig13customOptionsSo09GADNativeG4ViewCSo0mG0C_AA0giJ0VSDys11AnyHashableVypGSgtFZ",
+            "mangledName": "$s17PrivateFrameworkA17AdmobRenderHelperC8renderAd_14adNativeConfig13customOptionsSo09GADNativeG4ViewCSo0mG0C_AA0giJ0VSDys11AnyHashableVypGSgtFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17PrivateFrameworkA17AdmobRenderHelperC",
+        "mangledName": "$s17PrivateFrameworkA17AdmobRenderHelperC",
+        "moduleName": "PrivateFrameworkA",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdNativeConfig",
+        "printedName": "AdNativeConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adNativeConfigCommon",
+            "printedName": "adNativeConfigCommon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdNativeConfig",
+                "printedName": "PrivateFrameworkA.AdNativeConfig",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV02addE6CommonACvpZ",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV02addE6CommonACvpZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdNativeConfig",
+                    "printedName": "PrivateFrameworkA.AdNativeConfig",
+                    "usr": "s:17PrivateFrameworkA14AdNativeConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV02addE6CommonACvgZ",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV02addE6CommonACvgZ",
+                "moduleName": "PrivateFrameworkA",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "factoryId",
+            "printedName": "factoryId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV9factoryIdSSvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV9factoryIdSSvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV9factoryIdSSvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV9factoryIdSSvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callActionGradientOrientation",
+            "printedName": "callActionGradientOrientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV29callActionGradientOrientationSSvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV29callActionGradientOrientationSSvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV29callActionGradientOrientationSSvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV29callActionGradientOrientationSSvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorCallActionFirst",
+            "printedName": "colorCallActionFirst",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV20colorCallActionFirstSo7UIColorCvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV20colorCallActionFirstSo7UIColorCvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV20colorCallActionFirstSo7UIColorCvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV20colorCallActionFirstSo7UIColorCvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorCallActionSecond",
+            "printedName": "colorCallActionSecond",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV21colorCallActionSecondSo7UIColorCvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV21colorCallActionSecondSo7UIColorCvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV21colorCallActionSecondSo7UIColorCvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV21colorCallActionSecondSo7UIColorCvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorCallActionText",
+            "printedName": "colorCallActionText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV19colorCallActionTextSo7UIColorCvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV19colorCallActionTextSo7UIColorCvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV19colorCallActionTextSo7UIColorCvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV19colorCallActionTextSo7UIColorCvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorCallActionStroke",
+            "printedName": "colorCallActionStroke",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV21colorCallActionStrokeSo7UIColorCvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV21colorCallActionStrokeSo7UIColorCvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV21colorCallActionStrokeSo7UIColorCvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV21colorCallActionStrokeSo7UIColorCvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorRootViewBackground",
+            "printedName": "colorRootViewBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV23colorRootViewBackgroundSo7UIColorCvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV23colorRootViewBackgroundSo7UIColorCvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV23colorRootViewBackgroundSo7UIColorCvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV23colorRootViewBackgroundSo7UIColorCvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorContentViewBackground",
+            "printedName": "colorContentViewBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV26colorContentViewBackgroundSo7UIColorCvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV26colorContentViewBackgroundSo7UIColorCvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV26colorContentViewBackgroundSo7UIColorCvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV26colorContentViewBackgroundSo7UIColorCvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorRootViewStroke",
+            "printedName": "colorRootViewStroke",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV19colorRootViewStrokeSo7UIColorCvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV19colorRootViewStrokeSo7UIColorCvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV19colorRootViewStrokeSo7UIColorCvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV19colorRootViewStrokeSo7UIColorCvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorTextHeadline",
+            "printedName": "colorTextHeadline",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV17colorTextHeadlineSo7UIColorCvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV17colorTextHeadlineSo7UIColorCvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV17colorTextHeadlineSo7UIColorCvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV17colorTextHeadlineSo7UIColorCvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorTextBody",
+            "printedName": "colorTextBody",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV13colorTextBodySo7UIColorCvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV13colorTextBodySo7UIColorCvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV13colorTextBodySo7UIColorCvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV13colorTextBodySo7UIColorCvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorAdAttributeBackground",
+            "printedName": "colorAdAttributeBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV05colorC19AttributeBackgroundSo7UIColorCvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV05colorC19AttributeBackgroundSo7UIColorCvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV05colorC19AttributeBackgroundSo7UIColorCvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV05colorC19AttributeBackgroundSo7UIColorCvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorAdAttributeText",
+            "printedName": "colorAdAttributeText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV05colorC13AttributeTextSo7UIColorCvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV05colorC13AttributeTextSo7UIColorCvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV05colorC13AttributeTextSo7UIColorCvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV05colorC13AttributeTextSo7UIColorCvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "floatRadiusCallAction",
+            "printedName": "floatRadiusCallAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV21floatRadiusCallAction14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV21floatRadiusCallAction12CoreGraphics7CGFloatVvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV21floatRadiusCallAction14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV21floatRadiusCallAction12CoreGraphics7CGFloatVvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "floatRadiusContentView",
+            "printedName": "floatRadiusContentView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV22floatRadiusContentView14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV22floatRadiusContentView12CoreGraphics7CGFloatVvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV22floatRadiusContentView14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV22floatRadiusContentView12CoreGraphics7CGFloatVvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "floatRadiusRootView",
+            "printedName": "floatRadiusRootView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV19floatRadiusRootView14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV19floatRadiusRootView12CoreGraphics7CGFloatVvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV19floatRadiusRootView14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV19floatRadiusRootView12CoreGraphics7CGFloatVvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "floatRadiusAdAttribute",
+            "printedName": "floatRadiusAdAttribute",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV011floatRadiusC9Attribute14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV011floatRadiusC9Attribute12CoreGraphics7CGFloatVvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV011floatRadiusC9Attribute14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV011floatRadiusC9Attribute12CoreGraphics7CGFloatVvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "floatHeightCallAction",
+            "printedName": "floatHeightCallAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV21floatHeightCallAction14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV21floatHeightCallAction12CoreGraphics7CGFloatVvp",
+            "moduleName": "PrivateFrameworkA",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV21floatHeightCallAction14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV21floatHeightCallAction12CoreGraphics7CGFloatVvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeCommon",
+            "printedName": "makeCommon()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdNativeConfig",
+                "printedName": "PrivateFrameworkA.AdNativeConfig",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV10makeCommonACyFZ",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV10makeCommonACyFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createAdNativeConfig",
+            "printedName": "createAdNativeConfig(factoryId:arguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdNativeConfig",
+                "printedName": "PrivateFrameworkA.AdNativeConfig",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV06createcdE09factoryId9argumentsACSS_SDySSypGtFZ",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV06createcdE09factoryId9argumentsACSS_SDySSypGtFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getGradientDirection",
+            "printedName": "getGradientDirection(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Direction",
+                "printedName": "PrivateFrameworkA.GradientView.Direction",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV20getGradientDirectionyAA0G4ViewC0H0OSSFZ",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV20getGradientDirectionyAA0G4ViewC0H0OSSFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "colorFromHex",
+            "printedName": "colorFromHex(_:fallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV12colorFromHex_8fallbackSo7UIColorCypSg_AGtFZ",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV12colorFromHex_8fallbackSo7UIColorCypSg_AGtFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "floatFrom",
+            "printedName": "floatFrom(_:fallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV9floatFrom_8fallback14CoreFoundation7CGFloatVSdSg_AHtFZ",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV9floatFrom_8fallback12CoreGraphics7CGFloatVSdSg_AHtFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(factoryId:callActionGradientOrientation:colorCallActionFirst:colorCallActionSecond:colorCallActionText:colorCallActionStroke:colorRootViewBackground:colorContentViewBackground:colorRootViewStroke:colorTextHeadline:colorTextBody:colorAdAttributeBackground:colorAdAttributeText:floatRadiusCallAction:floatRadiusContentView:floatRadiusRootView:floatRadiusAdAttribute:floatHeightCallAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdNativeConfig",
+                "printedName": "PrivateFrameworkA.AdNativeConfig",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV9factoryId29callActionGradientOrientation09colorCallI5First0lmI6Second0lmI4Text0lmI6Stroke0L18RootViewBackground0l7ContentsT00lrsQ00lP8Headline0lP4Body0lc9AttributeT00lcxP0011floatRadiusmI00yzuS00yzrS00yzcX00y6HeightmI0ACSS_SSSo7UIColorCA10W14CoreFoundation7CGFloatVA4Ztcfc",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV9factoryId29callActionGradientOrientation09colorCallI5First0lmI6Second0lmI4Text0lmI6Stroke0L18RootViewBackground0l7ContentsT00lrsQ00lP8Headline0lP4Body0lc9AttributeT00lcxP0011floatRadiusmI00yzuS00yzrS00yzcX00y6HeightmI0ACSS_SSSo7UIColorCA10W12CoreGraphics7CGFloatVA4Ztcfc",
+            "moduleName": "PrivateFrameworkA",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17PrivateFrameworkA14AdNativeConfigV",
+        "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GradientView",
+        "printedName": "GradientView",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Direction",
+            "printedName": "Direction",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "topToBottom",
+                "printedName": "topToBottom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivateFrameworkA.GradientView.Direction.Type) -> PrivateFrameworkA.GradientView.Direction",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Direction",
+                        "printedName": "PrivateFrameworkA.GradientView.Direction",
+                        "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivateFrameworkA.GradientView.Direction.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Direction",
+                            "printedName": "PrivateFrameworkA.GradientView.Direction",
+                            "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO11topToBottomyA2EmF",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9DirectionO11topToBottomyA2EmF",
+                "moduleName": "PrivateFrameworkA",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "leftToRight",
+                "printedName": "leftToRight",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivateFrameworkA.GradientView.Direction.Type) -> PrivateFrameworkA.GradientView.Direction",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Direction",
+                        "printedName": "PrivateFrameworkA.GradientView.Direction",
+                        "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivateFrameworkA.GradientView.Direction.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Direction",
+                            "printedName": "PrivateFrameworkA.GradientView.Direction",
+                            "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO11leftToRightyA2EmF",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9DirectionO11leftToRightyA2EmF",
+                "moduleName": "PrivateFrameworkA",
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "rightToLeft",
+                "printedName": "rightToLeft",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivateFrameworkA.GradientView.Direction.Type) -> PrivateFrameworkA.GradientView.Direction",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Direction",
+                        "printedName": "PrivateFrameworkA.GradientView.Direction",
+                        "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivateFrameworkA.GradientView.Direction.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Direction",
+                            "printedName": "PrivateFrameworkA.GradientView.Direction",
+                            "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO11rightToLeftyA2EmF",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9DirectionO11rightToLeftyA2EmF",
+                "moduleName": "PrivateFrameworkA",
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Var",
+                "name": "bottomToTop",
+                "printedName": "bottomToTop",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivateFrameworkA.GradientView.Direction.Type) -> PrivateFrameworkA.GradientView.Direction",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Direction",
+                        "printedName": "PrivateFrameworkA.GradientView.Direction",
+                        "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivateFrameworkA.GradientView.Direction.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Direction",
+                            "printedName": "PrivateFrameworkA.GradientView.Direction",
+                            "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO11bottomToTopyA2EmF",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9DirectionO11bottomToTopyA2EmF",
+                "moduleName": "PrivateFrameworkA",
+                "fixedbinaryorder": 3
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "PrivateFrameworkA.GradientView.Direction",
+                    "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "PrivateFrameworkA.GradientView.Direction",
+                    "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9DirectionO2eeoiySbAE_AEtFZ",
+                "moduleName": "PrivateFrameworkA",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO9hashValueSivp",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9DirectionO9hashValueSivp",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO9hashValueSivg",
+                    "mangledName": "$s17PrivateFrameworkA12GradientViewC9DirectionO9hashValueSivg",
+                    "moduleName": "PrivateFrameworkA",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9DirectionO4hash4intoys6HasherVz_tF",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC9DirectionO",
+            "moduleName": "PrivateFrameworkA",
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gradientLayer",
+            "printedName": "gradientLayer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QuartzCore.CAGradientLayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAGradientLayer",
+                    "printedName": "QuartzCore.CAGradientLayer",
+                    "usr": "c:objc(cs)CAGradientLayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA12GradientViewC13gradientLayerSo010CAGradientF0CSgvp",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC13gradientLayerSo010CAGradientF0CSgvp",
+            "moduleName": "PrivateFrameworkA",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "QuartzCore.CAGradientLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CAGradientLayer",
+                        "printedName": "QuartzCore.CAGradientLayer",
+                        "usr": "c:objc(cs)CAGradientLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA12GradientViewC13gradientLayerSo010CAGradientF0CSgvg",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC13gradientLayerSo010CAGradientF0CSgvg",
+                "moduleName": "PrivateFrameworkA",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colors",
+            "printedName": "colors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIColor]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIColor]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(py)colors",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC6colorsSaySo7UIColorCGSgvp",
+            "moduleName": "PrivateFrameworkA",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "IBInspectable",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[UIKit.UIColor]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UIKit.UIColor]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(im)colors",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC6colorsSaySo7UIColorCGSgvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[UIKit.UIColor]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UIKit.UIColor]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(im)setColors:",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC6colorsSaySo7UIColorCGSgvs",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA12GradientViewC6colorsSaySo7UIColorCGSgvM",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC6colorsSaySo7UIColorCGSgvM",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locations",
+            "printedName": "locations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Double]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Double]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(py)locations",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC9locationsSaySdGSgvp",
+            "moduleName": "PrivateFrameworkA",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "IBInspectable",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Double]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Double]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(im)locations",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9locationsSaySdGSgvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Double]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Double]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(im)setLocations:",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9locationsSaySdGSgvs",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9locationsSaySdGSgvM",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9locationsSaySdGSgvM",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "direction",
+            "printedName": "direction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Direction",
+                "printedName": "PrivateFrameworkA.GradientView.Direction",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17PrivateFrameworkA12GradientViewC9directionAC9DirectionOvp",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC9directionAC9DirectionOvp",
+            "moduleName": "PrivateFrameworkA",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "PrivateFrameworkA.GradientView.Direction",
+                    "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9directionAC9DirectionOvg",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9directionAC9DirectionOvg",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "PrivateFrameworkA.GradientView.Direction",
+                    "usr": "s:17PrivateFrameworkA12GradientViewC9DirectionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9directionAC9DirectionOvs",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9directionAC9DirectionOvs",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PrivateFrameworkA12GradientViewC9directionAC9DirectionOvM",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC9directionAC9DirectionOvM",
+                "moduleName": "PrivateFrameworkA",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(im)awakeFromNib",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC12awakeFromNibyyF",
+            "moduleName": "PrivateFrameworkA",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prepareForInterfaceBuilder",
+            "printedName": "prepareForInterfaceBuilder()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(im)prepareForInterfaceBuilder",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC26prepareForInterfaceBuilderyyF",
+            "moduleName": "PrivateFrameworkA",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "prepareForInterfaceBuilder",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(im)layoutSubviews",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC14layoutSubviewsyyF",
+            "moduleName": "PrivateFrameworkA",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "layerClass",
+            "printedName": "layerClass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(cpy)layerClass",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC10layerClassyXlXpvpZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layerClass",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(cm)layerClass",
+                "mangledName": "$s17PrivateFrameworkA12GradientViewC10layerClassyXlXpvgZ",
+                "moduleName": "PrivateFrameworkA",
+                "static": true,
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "layerClass",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setColors",
+            "printedName": "setColors(_:animated:duration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIColor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PrivateFrameworkA12GradientViewC9setColors_8animated8durationySaySo7UIColorCG_SbSdtF",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC9setColors_8animated8durationySaySo7UIColorCG_SbSdtF",
+            "moduleName": "PrivateFrameworkA",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateGradient",
+            "printedName": "updateGradient()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PrivateFrameworkA12GradientViewC06updateC0yyF",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC06updateC0yyF",
+            "moduleName": "PrivateFrameworkA",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GradientView",
+                "printedName": "PrivateFrameworkA.GradientView",
+                "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(im)initWithFrame:",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "PrivateFrameworkA",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivateFrameworkA.GradientView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GradientView",
+                    "printedName": "PrivateFrameworkA.GradientView",
+                    "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView(im)initWithCoder:",
+            "mangledName": "$s17PrivateFrameworkA12GradientViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "PrivateFrameworkA",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PrivateFrameworkA@objc(cs)GradientView",
+        "mangledName": "$s17PrivateFrameworkA12GradientViewC",
+        "moduleName": "PrivateFrameworkA",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "IBDesignable",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getBundle",
+            "printedName": "getBundle(bundleName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8NSBundleC17PrivateFrameworkAE9getBundle10bundleNameABSgSS_tFZ",
+            "mangledName": "$sSo8NSBundleC17PrivateFrameworkAE9getBundle10bundleNameABSgSS_tFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "staticBundle",
+            "printedName": "staticBundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSBundleC17PrivateFrameworkAE12staticBundleABSgvpZ",
+            "mangledName": "$sSo8NSBundleC17PrivateFrameworkAE12staticBundleABSgvpZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC17PrivateFrameworkAE12staticBundleABSgvgZ",
+                "mangledName": "$sSo8NSBundleC17PrivateFrameworkAE12staticBundleABSgvgZ",
+                "moduleName": "PrivateFrameworkA",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIButton",
+        "printedName": "UIButton",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setAllTitle",
+            "printedName": "setAllTitle(_:textColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIButtonC17PrivateFrameworkAE11setAllTitle_9textColorySS_So7UIColorCSgtF",
+            "mangledName": "$sSo8UIButtonC17PrivateFrameworkAE11setAllTitle_9textColorySS_So7UIColorCSgtF",
+            "moduleName": "PrivateFrameworkA",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIButton",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIButton",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIControl",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "selfId",
+            "printedName": "selfId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So6UIViewC17PrivateFrameworkAE6selfIdSSvpZ",
+            "mangledName": "$sSo6UIViewC17PrivateFrameworkAE6selfIdSSvpZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So6UIViewC17PrivateFrameworkAE6selfIdSSvgZ",
+                "mangledName": "$sSo6UIViewC17PrivateFrameworkAE6selfIdSSvgZ",
+                "moduleName": "PrivateFrameworkA",
+                "static": true,
+                "isOpen": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "circleBorder",
+            "printedName": "circleBorder(color:width:radius:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC17PrivateFrameworkAE12circleBorder5color5width6radiusySo7UIColorCSg_14CoreFoundation7CGFloatVAMSgtF",
+            "mangledName": "$sSo6UIViewC17PrivateFrameworkAE12circleBorder5color5width6radiusySo7UIColorCSg_12CoreGraphics7CGFloatVAMSgtF",
+            "moduleName": "PrivateFrameworkA",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "exclusiveTouch",
+            "printedName": "exclusiveTouch()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC17PrivateFrameworkAE14exclusiveTouchyyF",
+            "mangledName": "$sSo6UIViewC17PrivateFrameworkAE14exclusiveTouchyyF",
+            "moduleName": "PrivateFrameworkA",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "toHexString",
+            "printedName": "toHexString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC17PrivateFrameworkAE11toHexStringSSvp",
+            "mangledName": "$sSo7UIColorC17PrivateFrameworkAE11toHexStringSSvp",
+            "moduleName": "PrivateFrameworkA",
+            "isOpen": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC17PrivateFrameworkAE11toHexStringSSvg",
+                "mangledName": "$sSo7UIColorC17PrivateFrameworkAE11toHexStringSSvg",
+                "moduleName": "PrivateFrameworkA",
+                "isOpen": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fromHexa",
+            "printedName": "fromHexa(colorCode:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIColorC17PrivateFrameworkAE8fromHexa9colorCode5alphaABs6UInt32V_14CoreFoundation7CGFloatVtFZ",
+            "mangledName": "$sSo7UIColorC17PrivateFrameworkAE8fromHexa9colorCode5alphaABs6UInt32V_12CoreGraphics7CGFloatVtFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromRGB",
+            "printedName": "fromRGB(r:g:b:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIColorC17PrivateFrameworkAE7fromRGB1r1g1b5alphaABSi_S2i14CoreFoundation7CGFloatVtFZ",
+            "mangledName": "$sSo7UIColorC17PrivateFrameworkAE7fromRGB1r1g1b5alphaABSi_S2i12CoreGraphics7CGFloatVtFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromHexaString",
+            "printedName": "fromHexaString(hexString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIColorC17PrivateFrameworkAE14fromHexaString03hexF0ABSS_tFZ",
+            "mangledName": "$sSo7UIColorC17PrivateFrameworkAE14fromHexaString03hexF0ABSS_tFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "randomColor",
+            "printedName": "randomColor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIColorC17PrivateFrameworkAE11randomColorAByFZ",
+            "mangledName": "$sSo7UIColorC17PrivateFrameworkAE11randomColorAByFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/Bundle+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 19,
+      "value": "\"PrivateFrameworkA\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1503,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIView+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 725,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1278,
+      "length": 3,
+      "value": "1.0"
+    }
+  ]
+}

@@ -1,0 +1,1056 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdNativeConfig",
+        "printedName": "AdNativeConfig",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "makeCommon",
+            "printedName": "makeCommon()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdNativeConfig",
+                "printedName": "PrivateFrameworkA.AdNativeConfig",
+                "usr": "s:17PrivateFrameworkA14AdNativeConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PrivateFrameworkA14AdNativeConfigV10makeCommonACyFZ",
+            "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV10makeCommonACyFZ",
+            "moduleName": "PrivateFrameworkA",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17PrivateFrameworkA14AdNativeConfigV",
+        "mangledName": "$s17PrivateFrameworkA14AdNativeConfigV",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFrameworkA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 14,
+      "value": "\"CustomAdView\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 900,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1031,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2223,
+      "length": 23,
+      "value": "\"ad_call_action_height\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2515,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 2939,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3333,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3414,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3456,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3478,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3600,
+      "length": 16,
+      "value": "\"ad_attribution\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3868,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4419,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4524,
+      "length": 10,
+      "value": "\"ad_store\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4645,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4750,
+      "length": 10,
+      "value": "\"ad_price\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4871,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4976,
+      "length": 15,
+      "value": "\"ad_background\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5217,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdmobRenderHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5247,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/Bundle+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/Bundle+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 19,
+      "value": "\"PrivateFrameworkA\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1175,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1248,
+      "length": 11,
+      "value": "\"#FFFFFFFF\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1331,
+      "length": 11,
+      "value": "\"#FFFFFFFF\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1412,
+      "length": 11,
+      "value": "\"#E6000000\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1495,
+      "length": 11,
+      "value": "\"#FF000000\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1580,
+      "length": 11,
+      "value": "\"#FFFFFFFF\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1668,
+      "length": 11,
+      "value": "\"#FFFFFFFF\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1749,
+      "length": 11,
+      "value": "\"#FF000000\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1828,
+      "length": 11,
+      "value": "\"#CC000000\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1903,
+      "length": 11,
+      "value": "\"#80000000\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 11,
+      "value": "\"#FFFFCC66\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2073,
+      "length": 11,
+      "value": "\"#FFFFFFFF\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2122,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2162,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2199,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2239,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2278,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2508,
+      "length": 31,
+      "value": "\"callActionGradientOrientation\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2555,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2603,
+      "length": 22,
+      "value": "\"colorCallActionFirst\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2684,
+      "length": 23,
+      "value": "\"colorCallActionSecond\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2764,
+      "length": 21,
+      "value": "\"colorCallActionText\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2844,
+      "length": 23,
+      "value": "\"colorCallActionStroke\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2931,
+      "length": 28,
+      "value": "\"colorContentViewBackground\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3020,
+      "length": 25,
+      "value": "\"colorRootViewBackground\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3102,
+      "length": 21,
+      "value": "\"colorRootViewStroke\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3178,
+      "length": 19,
+      "value": "\"colorTextHeadline\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3248,
+      "length": 15,
+      "value": "\"colorTextBody\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3327,
+      "length": 28,
+      "value": "\"colorAdAttributeBackground\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3413,
+      "length": 22,
+      "value": "\"colorAdAttributeText\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3503,
+      "length": 23,
+      "value": "\"floatRadiusCallAction\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3586,
+      "length": 24,
+      "value": "\"floatRadiusContentView\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3667,
+      "length": 21,
+      "value": "\"floatRadiusRootView\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3748,
+      "length": 24,
+      "value": "\"floatRadiusAdAttribute\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3831,
+      "length": 23,
+      "value": "\"floatHeightCallAction\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/AdNativeConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 6282,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1503,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "StringLiteral",
+      "offset": 1652,
+      "length": 8,
+      "value": "\"colors\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1834,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "StringLiteral",
+      "offset": 2059,
+      "length": 8,
+      "value": "\"colors\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "Array",
+      "offset": 2232,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2854,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2862,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2921,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2929,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3030,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3038,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3097,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3105,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3206,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3214,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3273,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3281,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3382,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3390,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3449,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/GradientView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3457,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIView+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIView+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIView+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIView+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIView+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 442,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIView+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 693,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 14,
+      "value": "\"%02X%02X%02X\""
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 428,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 455,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 482,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 725,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 782,
+      "length": 8,
+      "value": "0xff0000"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 795,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 801,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 846,
+      "length": 8,
+      "value": "0x00ff00"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 859,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 864,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 907,
+      "length": 8,
+      "value": "0x0000ff"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 919,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1278,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1337,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1364,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1390,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1874,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1918,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1970,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1975,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1987,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1991,
+      "length": 3,
+      "value": "0xF"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1998,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2009,
+      "length": 3,
+      "value": "0xF"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2016,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2033,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2084,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2095,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2099,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2111,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2130,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2189,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2194,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2207,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2212,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2225,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2229,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2241,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2476,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2501,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2525,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2554,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Volumes\/BACKVIET\/work\/workspace\/Xcode\/PrivateFrameworkA\/PrivateFrameworkA\/Extentions\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 2853,
+      "length": 3,
+      "value": "1.0"
+    }
+  ]
+}
