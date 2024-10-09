@@ -1,6 +1,6 @@
 archives
 Pods
-PrivateFrameworkA/
-PrivateFrameworkA*
+PrivateFrameworkB/
+PrivateFrameworkB.xc*
 build.sh
 Podfile*
