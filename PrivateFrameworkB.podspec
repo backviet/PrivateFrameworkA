@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = 'PrivateFrameworkB'
-  spec.version       = '0.0.8'
+  spec.version       = '0.0.9'
   spec.summary       = 'PrivateFrameworkB for testing'
   spec.description   = 'This is an PrivateFrameworkB which will help us in achieving nothing'
   spec.homepage      = 'https://domain.com'
@@ -33,10 +33,10 @@ Pod::Spec.new do |spec|
   # }
   # spec.resources        = ['PrivateFrameworkB/**/*.xib', 'PrivateFrameworkB/**/*.{xcassets}']
   
-  spec.pod_target_xcconfig = {
-    "SWIFT_SERIALIZE_DEBUGGING_OPTIONS" => "NO",
-    "OTHER_SWIFT_FLAGS" => "-Xfrontend -no-serialize-debugging-options",
-    "BUILD_LIBRARY_FOR_DISTRIBUTION" => "YES", # for swift Library Evolution
-    "SWIFT_REFLECTION_METADATA_LEVEL" => "none", # to include less metadata in the resulting binary
-  }
+  # spec.pod_target_xcconfig = {
+  #   "SWIFT_SERIALIZE_DEBUGGING_OPTIONS" => "NO",
+  #   "OTHER_SWIFT_FLAGS" => "-Xfrontend -no-serialize-debugging-options",
+  #   "BUILD_LIBRARY_FOR_DISTRIBUTION" => "YES", # for swift Library Evolution
+  #   "SWIFT_REFLECTION_METADATA_LEVEL" => "none", # to include less metadata in the resulting binary
+  # }
 end
